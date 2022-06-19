@@ -1,5 +1,6 @@
 # Resumen de la prueba
 Aplicación que tras pulsar un botón, muestre una notificación emergente la cual desaparecerá sola tras 3 segundos.
+Utilizamos React Context API para mostrar notificaciones.
 
 # Resumen técnico
 Se crea un botón independiente para poder ser utilizado desde cualquier lado del aplicativo.
