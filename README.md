@@ -10,7 +10,7 @@ Se añaden dos botónes a la pantalla:
 
     2.- SHOW DIALOG: Muestra un pop-up en medio de la pantalla. Desaparece trás 3 segundo o si clickamos fuera del mismo.
 
-Para mostrar el pop-up, lo hacemos con el modal-context, creando dentro la notificación y su funcionamiento/formato.
+Para mostrar el pop-up, lo hacemos con el modal-context, definiendo dentro su funcionamiento y formato.
 
 Para mostrar la notificación, instalamos:
 ### `yarn add react-notifications-component`
