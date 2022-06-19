@@ -3,11 +3,15 @@ Aplicación que tras pulsar un botón, muestre una notificación emergente la cu
 
 # Resumen técnico
 Se crea un botón independiente para poder ser utilizado desde cualquier lado del aplicativo.
+
 Se añaden dos botónes a la pantalla:
+
     1.- SHOW NOTIFICATION: Muetra notificación en la parte top de la página, desaparece tras 3 segundos.
+
     2.- SHOW DIALOG: Muestra un pop-up en medio de la pantalla. Desaparece trás 3 segundo o si clickamos fuera del mismo.
 
 Para mostrar el pop-up, lo hacemos con el modal-context, creando dentro la notificación y su funcionamiento/formato.
+
 Para mostrar la notificación, instalamos:
 ### `yarn add react-notifications-component`
 
