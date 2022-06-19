@@ -1,5 +1,6 @@
 import "./Button.css";
 
+//Para el boitón, podremos definir color, nombre, tamaño y tipo.
 const Button = ({
   color = "blue",
   name = "name",

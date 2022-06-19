@@ -37,9 +37,6 @@
 .green {
   background-color: #3cba54;
 }
-.red {
-  background-color: #db3236;
-}
 /* Button Effects */
 .button-container button.custom-button.blue:hover {
   cursor: pointer;
@@ -49,11 +46,6 @@
 .button-container button.custom-button.green:hover {
   cursor: pointer;
   background-color: #298039;
-  box-shadow: 2px 2px 20px grey;
-}
-.button-container button.custom-button.red:hover {
-  cursor: pointer;
-  background-color: #9e2427;
   box-shadow: 2px 2px 20px grey;
 }
 
@@ -79,11 +71,6 @@
 .button-container button.custom-button.green:disabled {
   cursor: pointer;
   background-color: #298039;
-  color: lightgray;
-}
-.button-container button.custom-button.red:disabled {
-  cursor: pointer;
-  background-color: #9e2427;
   color: lightgray;
 }
 
