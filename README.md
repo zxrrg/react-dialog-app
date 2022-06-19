@@ -1,3 +1,19 @@
+# Resumen de la prueba
+Aplicación que tras pulsar un botón, muestre una notificación emergente la cual desaparecerá sola tras 3 segundos.
+
+# Resumen técnico
+Se crea un botón independiente para poder ser utilizado desde cualquier lado del aplicativo.
+Se añaden dos botónes a la pantalla:
+    1.- SHOW NOTIFICATION: Muetra notificación en la parte top de la página, desaparece tras 3 segundos.
+    2.- SHOW DIALOG: Muestra un pop-up en medio de la pantalla. Desaparece trás 3 segundo o si clickamos fuera del mismo.
+
+Para mostrar el pop-up, lo hacemos con el modal-context, creando dentro la notificación y su funcionamiento/formato.
+Para mostrar la notificación, instalamos:
+### `yarn add react-notifications-component`
+
+Las notificaciones se podrían integrar sin problemas en el context, pero he preferido dejarlas fuera. De tal forma vemos que puedo abrir notificaciones con el context o integrando una librería externa que al igual que el context, podemos llamar desde cualquier página a la que importemos:
+### `import { Store } from 'react-notifications-component';`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
